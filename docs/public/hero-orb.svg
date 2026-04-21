@@ -1,0 +1,38 @@
+<svg width="640" height="640" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <radialGradient id="g" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(320 320) rotate(90) scale(280)">
+      <stop stop-color="#ff8d75" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ff8d75" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="0" y="0" width="640" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+
+  <circle cx="320" cy="320" r="250" fill="url(#g)" filter="url(#glow)"/>
+
+  <g fill="#ff4a2c">
+    <circle cx="320" cy="320" r="86"/>
+    <circle cx="320" cy="272" r="22"/>
+
+    <circle cx="320" cy="116" r="16"/>
+    <circle cx="320" cy="524" r="14"/>
+    <circle cx="212" cy="142" r="18"/>
+    <circle cx="428" cy="142" r="18"/>
+    <circle cx="168" cy="214" r="14"/>
+    <circle cx="472" cy="214" r="14"/>
+    <circle cx="142" cy="320" r="20"/>
+    <circle cx="498" cy="320" r="20"/>
+    <circle cx="168" cy="426" r="14"/>
+    <circle cx="472" cy="426" r="14"/>
+    <circle cx="212" cy="498" r="18"/>
+    <circle cx="428" cy="498" r="18"/>
+    <circle cx="230" cy="320" r="12"/>
+    <circle cx="410" cy="320" r="12"/>
+    <circle cx="320" cy="190" r="11"/>
+    <circle cx="320" cy="450" r="11"/>
+  </g>
+
+  <rect x="398" y="398" width="126" height="126" rx="14" fill="#2ea043"/>
+  <path d="M435 430v66h52v-66" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
