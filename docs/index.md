@@ -16,7 +16,7 @@ hero:
 features:
   - icon: 🌈
     title: 组件设计
-    details: 基于 NutUI 4.x，适配了 uni-app。使用 Vue 技术栈开发小程序应用，开箱即用，帮助研发快速开发用户界面，提升开发效率，改善开发体验。
+    details: 基于 NutUI 4.x，适配了 uni-app。使用 Vue 技术栈开发小程序应用，开箱即用，帮助研发快速开发用户界面，提升开发效率。
   - icon: 🔥
     title: 按需引入
     details: 提供解析器以自动仅导入被使用的组件，构建轻量包体。
